@@ -3,7 +3,7 @@ async function movieSearch(){
     if(movieContains.length<3){
         document.getElementById("SearchResults").innerHTML='';
     }else{
-        let apiReqUrl="http://www.omdbapi.com/?apikey=533074a1&s="+movieContains;
+        let apiReqUrl="https://www.omdbapi.com/?apikey=533074a1&s="+movieContains;
         let apiRes=await fetch(apiReqUrl);
         let movieList=await apiRes.json();
         document.getElementById("SearchResults").innerHTML='';
