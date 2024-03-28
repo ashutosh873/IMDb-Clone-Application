@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(5, 11, 100, 0.922);
+    position: relative;
+}
+
+
+h1{
+    margin:4% 10% 0% 30%;
+    color:white;
+    font-size: 25px;
+}
+
+p{
+    margin:auto;
+    font-size: 18px;
+    position: absolute;
+    top:-1px;    
+    left:90px;
+   
+}
+label{
+    margin:auto;
+    color:yellowgreen;
+}
+
+#movieDetails{
+    margin:3% 10% 0% 15%;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.title{
+    position: absolute;
+    width:800px;
+}
+
+.poster{
+    position: absolute;
+    width:800px;
+    top:50px;
+}
+
+.plot{
+    position: absolute;
+    width:800px;
+    top:525px;
+    height:300px;
+    
+}

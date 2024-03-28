@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>IMDb Clone App - Movie Details</title>
+        <link rel="stylesheet" href="./movieDetailsStyling.css" type="text/css">
+    </head>
+    <body onload="movieDetails()">
+        <h1>Here are the details of the selected movie</h1>
+        
+        <div id="movieDetails">
+            <div class="title">
+                <label for="movieTitle">TITLE : </label>
+                <p id="movieTitle"></p>
+            </div>
+            <div class="poster">
+                <label for="moviePoster">POSTER : </label>
+                 <p><img id="moviePoster"></p>
+            </div>
+            <div class="plot">
+                <label for="moviePlot">PLOT : </label>
+                <p id="moviePlot"></p>
+            </div>
+        </div>
+        <script src="./movieDetailsLogic.js"></script>
+    </body>
+</html>

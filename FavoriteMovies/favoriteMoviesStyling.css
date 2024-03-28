@@ -1,0 +1,56 @@
+body{
+    background-color: rgba(5, 11, 100, 0.922);
+}
+
+
+h1{
+    margin:4% 10% 0% 37%;
+    color:white;
+    font-size: 25px;
+}
+
+#favoriteMovieRecords{
+    margin-top: 7%;
+}
+
+#favoriteMovies{
+    margin: 0% 38% 0% 28%;
+    border:3px solid lightyellow;
+    width:495px;
+    height:50px;
+    background-color:darkslategray;
+    position: relative;
+}
+
+button{
+    background-color: lightyellow;
+    font-weight: bold;
+    height: 30px;
+    margin: auto;
+    position: absolute;
+    right:2px;
+    top:8px;
+    cursor: pointer;
+}
+
+label{
+    color:lightyellow;
+    font-weight:500;
+    font-size: 17px;
+    margin:auto;
+    position: absolute;
+    left:4px;
+    top:10px;
+    
+}
+
+p{
+    margin:10% 5% 0% 30%;
+    font-size: 18px;
+    color:rgb(255, 0, 0);
+    font-weight:bold;
+
+   
+}
+
+

@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(5, 11, 100, 0.922);
+}
+
+h1{
+    margin:10% 5% 0% 14%;
+    color:white;
+    font-size: 25px;
+}
+
+input{
+    margin: 8% 38% 0% 30%;
+    width:500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#movieSearchResults{
+    margin: 0% 38% 0% 30%;
+    border:3px solid lightyellow;
+    width:495px;
+    height:30px;
+    background-color:darkslategray;
+    position: relative;
+}
+
+button{
+    background-color: lightyellow;
+    font-weight: bold;
+    height: 30px;
+    margin: auto;
+    position: absolute;
+    right:2px;
+    cursor: pointer;
+}
+
+.MovieLink{
+    color:lightyellow;
+    font-weight:500;
+    font-size: 17px;
+    margin:auto;
+    position: absolute;
+    left:2px;
+    top:4px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
